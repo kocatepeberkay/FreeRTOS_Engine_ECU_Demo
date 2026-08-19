@@ -1,0 +1,42 @@
+==================================================
+  VIRTUAL ENGINE ECU - FreeRTOS Windows Demo
+==================================================
+
+  Simulated engine temperature is read, the fan is
+  controlled and CAN telemetry is transmitted.
+
+  KEYS
+
+  S       : Start simulation
+  F       : Trigger watchdog fault (while running)
+  Ctrl+C  : Exit
+
+  Press S to start...
+
+  Simulation started.
+
+--------------------------------------------------
+
+[CONTROL TASK] New sensor sample
+
+  Engine temperature : 82.4 C
+  Fan command        : 24 %
+
+[CAN TASK] Telemetry transmitted
+
+  CAN ID     : 0x180
+  Data length: 3 bytes
+  Payload    : 03 38 18
+
+--------------------------------------------------
+
+[CONTROL TASK] New sensor sample
+
+  Engine temperature : 82.6 C
+  Fan command        : 25 %
+
+[CAN TASK] Telemetry transmitted
+
+  CAN ID     : 0x180
+  Data length: 3 bytes
+  Payload    : 03 3A 19

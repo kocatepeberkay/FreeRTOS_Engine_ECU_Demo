@@ -1,0 +1,18 @@
+# Visual Studio / CMake outputs
+.vs/
+out/
+build/
+CMakeSettings.json
+CMakeUserPresets.json
+
+# Compiler files
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.user
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
